@@ -1,4 +1,4 @@
-//Module fibo
+#Module fibo
 
 import fibo
 
