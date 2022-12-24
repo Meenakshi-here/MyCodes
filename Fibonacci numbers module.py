@@ -1,4 +1,4 @@
-//Fibonacci numbers module
+#Fibonacci numbers module
 
 def fib(n):    # write Fibonacci series up to n
     a, b = 0, 1
