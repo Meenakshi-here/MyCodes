@@ -1,0 +1,18 @@
+#Python program to transpose a matrix
+
+A = [[5, 4, 3],  
+         [2, 4, 6],  
+         [4, 7, 9],  
+         [8, 1, 3]]  
+ 
+transResult = [[0, 0, 0, 0],    
+                             [0, 0, 0, 0],  
+                             [0, 0, 0, 0]]  
+ 
+for a in range(len(A)):    
+   for b in range(len(A[0])):    
+          transResult[b][a] = A[a][b] # store transpose result on empty matrix          
+
+print("The transpose of matrix A is: ")  
+for res in transResult:    
+   print(res)
