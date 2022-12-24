@@ -1,0 +1,8 @@
+#Python Function to Display Calendar
+
+import calendar  
+
+yy = int(input("Enter year: "))  
+mm = int(input("Enter month: "))  
+
+print(calendar.month(yy,mm))
